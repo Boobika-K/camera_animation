@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  overflow-x: hidden;
+}
+
+/* Creates scroll length */
+.scroll-container {
+  height: 400vh; /* controls scroll duration */
+  position: relative;
+}
+
+/* Sticky animation */
+canvas {
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
