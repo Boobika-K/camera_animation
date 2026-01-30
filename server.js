@@ -14,7 +14,7 @@ let currentFrame = 0;
 // Preload images
 for (let i = 1; i <= frameCount; i++) {
   const img = new Image();
-  img.src = `camera_animation/ezgif-frame-${String(i).padStart(3, "0")}.jpg`;
+  img.src = `cam_lens/ezgif-frame-${String(i).padStart(3, "0")}.jpg`;
   images.push(img);
 }
 
@@ -64,4 +64,5 @@ window.addEventListener("resize", () => {
   resizeCanvas();
   drawFrame(currentFrame);
 });
+
 
